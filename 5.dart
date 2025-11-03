@@ -1,4 +1,4 @@
-class Camera {
+class Camera{
   int _id;
   String _brand;
   String _color;
@@ -11,10 +11,10 @@ class Camera {
   String get color =>_color;
   double get price =>_price;
 
-  set id(int value) =>_id = value;
-  set brand(String value) =>_brand = value;
-  set color(String value) =>_color = value;
-  set price(double value) =>_price = value;
+  set id(int value) =>_id =value;
+  set brand(String value) =>_brand=value;
+  set color(String value) =>_color=value;
+  set price(double value) =>_price=value;
 
   @override
   String toString()
